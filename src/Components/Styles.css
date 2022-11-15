@@ -18,20 +18,8 @@ a {
   background-color: white;
   box-shadow: 0 0 5px rgb(0 0 0 / 20%);
   z-index: 100;
+  background-color: rgb(244, 244, 244);
 }
-
-@media (max-width: 600px) {
-  .navMain {
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 450px) {
-  .navMain {
-    font-size: 12px;
-  }
-}
-
 .navMain > div {
   display: flex;
   align-items: center;
@@ -49,6 +37,45 @@ a {
 }
 .navMain > div > div > a {
   text-decoration: none;
+}
+@media (max-width: 710px) {
+  .navMain {
+    font-size: 15px;
+    padding: 15px 3%;
+  }
+}
+@media (max-width: 570px) {
+  .navMain {
+    font-size: 12px;
+    padding: 14px 0px;
+  }
+  .namMain>div{
+    justify-content: space-around;
+  }
+  .navMain > div > div{
+    padding: 0px 3px;
+    margin: 0px 3px;
+  }
+}
+
+@media (max-width: 450px) {
+  .navMain {
+    font-size: 10px;
+  }
+  .navMain > div > div{
+    padding: 0px 3px;
+    margin: 0px 3px;
+  }
+}
+
+@media (max-width: 325px) {
+  .navMain {
+    font-size: 8px;
+  }
+  .navMain > div > div{
+    padding: 0px 2px;
+    margin: 0px 2px;
+  }
 }
 
 /* Home */

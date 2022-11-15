@@ -15,14 +15,21 @@ export const Navbar = () => {
         <Link to="/">Bhrugu Prasad </Link>
       </div>
       <div>
-        
+      <div
+          onClick={() => {
+            setIsPage("home");
+          }}
+          style={isPage === "home" ? { color: "black" } : null}
+        >
+          <Link to="/">Home</Link>
+        </div>
         <div
           onClick={() => {
             setIsPage("about");
           }}
           style={isPage === "about" ? { color: "black" } : null}
         >
-          <Link to="/about-me">Contact Me</Link>
+          <Link to="/">About</Link>
         </div>
         <div
           onClick={() => {
@@ -40,16 +47,29 @@ export const Navbar = () => {
         >
           <Link to="/skills">Skills</Link>
         </div>
-        <div>
-          {/* <a
-            href="https://albartjose.hashnode.dev/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            Blog
-          </a> */}
+        <div
+          onClick={() => {
+            setIsPage("contact");
+          }}
+          style={isPage === "contact" ? { color: "black" } : null}
+        >
+          <Link to="/about-me">Contact</Link>
         </div>
-        
+        <div
+          onClick={() => {
+            setIsPage("resume");
+          }}
+          style={isPage === "resume" ? { color: "black" } : null}
+        >
+         <Link
+              to="/files/Bhrugu.pdf"
+              target="_blank"
+              download
+              >
+              Resume
+              </Link>
+          {/* <a href="https://drive.google.com/file/d/1swAoYOJ_ZLSxnQ2i4MFlm086g4MwhlGM/view" target="_blank">Resume</a> */}
+        </div>
       </div>
     </div>
   );

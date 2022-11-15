@@ -4,7 +4,7 @@ export const ProjectList = [
     img: "/images/Tata1mg.png",
     title: "Tata1mg Clone",
     description:
-      "Tata1mg is a E-commerce site .",
+      "Tata1mg is an E-commerce site .",
     tech_stack: "HTML, Css, Javascript",
     github_url: "https://github.com/PankajkandpalL/Project1MG-TATA",
     demo_url: "https://storied-puppy-771909.netlify.app/",
@@ -28,6 +28,26 @@ export const ProjectList = [
     github_url: "https://github.com/manojattri181/Expedia-clone",
     demo_url:
       "https://expedia-tawny.vercel.app/?city=",
+  },
+  {
+    img: "/images/zara.png",
+    title: "Zara clone",
+    description:
+      "Latest trends in clothing for women, men & kids at ZARA online",
+    tech_stack: "MERN Stack",
+    github_url: "https://github.com/MoHitksS/green-value-83/",
+    demo_url:
+      "https://zara-origins.netlify.app/",
+  },
+  {
+    img: "/images/myntra.png",
+    title: "Myntra clone",
+    description:
+      "Myntra is an E-Commerce site",
+    tech_stack: "MERN Stack",
+    github_url: "https://github.com/akashbhoi2815/TopGearFashion_E-Commerce",
+    demo_url:
+      "https://topgearfashion.vercel.app/",
   }
 ];
 
