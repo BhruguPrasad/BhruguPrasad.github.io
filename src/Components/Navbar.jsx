@@ -61,14 +61,14 @@ export const Navbar = () => {
           }}
           style={isPage === "resume" ? { color: "black" } : null}
         >
-         <Link
+         {/* <Link
               to="/files/Bhrugu.pdf"
               target="_blank"
               download
-              >
-              Resume
-              </Link>
-          {/* <a href="https://drive.google.com/file/d/1swAoYOJ_ZLSxnQ2i4MFlm086g4MwhlGM/view" target="_blank">Resume</a> */}
+              > */}
+                {/* Resume */}
+          <a download href="https://drive.google.com/file/d/1swAoYOJ_ZLSxnQ2i4MFlm086g4MwhlGM/view" target="_blank">Resume</a>
+              {/* </Link> */}
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import Avatar from "@mui/material/Avatar";
 import { Image, ContactWrapper } from "./AboutElements";
+import { Button } from "@mui/material";
 function About() {
   return (
     <ContactWrapper id="about">
@@ -42,7 +43,10 @@ function About() {
             <p style={{ fontWeight: "500" }}>I am from Berhampur, Odisha.</p>
             <p style={{ fontWeight: "500" }}>Phone - 9337510286</p>
             <p style={{ fontWeight: "500" }}>Email - bhrugupadhi@gmail.com</p>
-            
+            <div style={{display:"flex",marginTop:"20px",textAlign:"center",justifyContent:"center"}}>
+            <Button variant="contained" href="https://www.linkedin.com/in/bhrugu-prasad-61b759232/" target="_blank" style={{marginRight:"5px"}}>linkedin</Button>
+            <Button variant="contained" href="https://github.com/BhruguPrasad" target="_blank" style={{marginLeft:"5px"}}>Github</Button>
+            </div>
           </div>
         </div>
       </div>

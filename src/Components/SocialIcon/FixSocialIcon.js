@@ -36,7 +36,7 @@ function FixSocialIcon() {
       <ul>
         <li className="item">
           <a
-            href="https://www.linkedin.com/in/bhrugu-padhi-61b759232/"
+            href="https://www.linkedin.com/in/bhrugu-prasad-61b759232/"
             target="_blank"
             rel="noopener noreferrer"
           >
